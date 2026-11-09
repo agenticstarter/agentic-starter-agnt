@@ -1,0 +1,123 @@
+{
+  "testnet": {
+    "graduationTargetBnb": 1,
+    "graduationFeeBps": 300,
+    "graduationFeeBnb": 0.03,
+    "creatorBonusBps": 2000,
+    "creatorBonusBnb": 0.006,
+    "targetBoundsBnb": [
+      0.1,
+      50
+    ],
+    "walletCapBps": 700,
+    "walletCapBoundsBps": [
+      50,
+      2000
+    ],
+    "minWalletsToGraduate": 12,
+    "curveFeeBps": 100,
+    "curveFeeSplitBps": {
+      "creator": 2000,
+      "buybackBurn": 4000,
+      "stakers": 3000,
+      "treasury": 1000
+    },
+    "launchFeeBnb": 0,
+    "metaUpdateFeeBnb": 0,
+    "creatorAllocBps": 300,
+    "creatorAllocUnlockDays": 5,
+    "rateLimitPerWeekPct": null,
+    "tokenSuffix": "AAAA",
+    "standardTokenFeesBnb": {
+      "random": 0.01,
+      "vanity9999": 0.02,
+      "advanced": 0.05,
+      "advancedTax": 0.1
+    }
+  },
+  "mainnet": {
+    "graduationTargetBnb": 16,
+    "graduationFeeBps": 300,
+    "graduationFeeBnb": 0.48,
+    "creatorBonusBps": 2000,
+    "creatorBonusBnb": 0.096,
+    "targetBoundsBnb": [
+      2,
+      50
+    ],
+    "walletCapBps": 100,
+    "walletCapBoundsBps": [
+      50,
+      200
+    ],
+    "minWalletsToGraduate": 80,
+    "curveFeeBps": 100,
+    "curveFeeSplitBps": {
+      "creator": 2000,
+      "buybackBurn": 4000,
+      "stakers": 3000,
+      "treasury": 1000
+    },
+    "launchFeeBnb": 0.005,
+    "metaUpdateFeeBnb": 0.01,
+    "creatorAllocBps": 0,
+    "creatorAllocUnlockDays": 0,
+    "rateLimitPerWeekPct": 50,
+    "tokenSuffix": "AAAA",
+    "standardTokenFeesBnb": {
+      "random": 0.01,
+      "vanity9999": 0.02,
+      "advanced": 0.05,
+      "advancedTax": 0.1
+    }
+  },
+  "presale": {
+    "floorAgntPerBnb": 1000000,
+    "saleTokens": 250000000,
+    "floorCapBnb": 250,
+    "softCapBnb": 50,
+    "perWalletBnb": [
+      0.05,
+      5
+    ],
+    "earlyBonusPct": 10,
+    "earlyBonusHours": 48,
+    "earlyBonusCap": 25000000,
+    "days": 15,
+    "listing": {
+      "priceVsFinalPresale": 1,
+      "bnbToPoolPct": 80,
+      "bnbToTreasuryPct": 20,
+      "maxPoolAgnt": 200000000
+    },
+    "useOfFundsPct": {
+      "security": 30,
+      "listing": 30,
+      "marketing": 25,
+      "operations": 15
+    }
+  },
+  "tokenomicsMillions": {
+    "presale": 250,
+    "community": 200,
+    "liquidity": 150,
+    "listingReserve": 60,
+    "team": 120,
+    "ecosystem": 120,
+    "treasury": 100
+  },
+  "reservedTickers": [
+    "AGNT",
+    "BNB",
+    "WBNB",
+    "BTC",
+    "BTCB",
+    "ETH",
+    "WETH",
+    "USDT",
+    "USDC",
+    "FDUSD",
+    "DAI",
+    "CAKE"
+  ]
+}

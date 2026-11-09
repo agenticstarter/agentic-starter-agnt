@@ -1,0 +1,9 @@
+# Agentic Starter security contact. Please report vulnerabilities privately; do not open public issues.
+Contact: mailto:security@agenticstarter.xyz
+Contact: https://agenticstarter.xyz/security
+Contact: https://t.me/agenticstarter
+Policy: https://docs.agenticstarter.xyz/guide/safety
+Acknowledgments: https://docs.agenticstarter.xyz/contracts#security-notes
+Preferred-Languages: en
+Canonical: https://docs.agenticstarter.xyz/.well-known/security.txt
+Expires: 2027-11-01T00:00:00Z

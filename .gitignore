@@ -1,0 +1,17 @@
+node_modules
+dist
+docs/.vitepress/cache
+docs/.vitepress/dist
+contracts/artifacts
+contracts/cache
+contracts/typechain-types
+contracts/coverage
+contracts/deployments/localhost*
+contracts/deployments/hardhat*
+cli/dist
+cli/SKILL.md
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store

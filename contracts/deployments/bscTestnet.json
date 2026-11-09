@@ -1,0 +1,180 @@
+{
+  "chainId": 97,
+  "startBlock": 140737805,
+  "router": "0xD99D1c33F9fC3444f8101754aBC46c52416550D1",
+  "agentRegistry": "0xAA883D0dD36A6aC162290a5FDcC18a214aa94eCD",
+  "testnetAgentId": "0xAA883D0dD36A6aC162290a5FDcC18a214aa94eCD",
+  "agentGate": "0x88bE033843968FCC96700Cdd3E87452BC23eF785",
+  "launchpad": "0x2a7E123acCE432DdaD6bF616AF03394dA0798637",
+  "lens": "0x194614Bf03d679705107a2520c068F9B4b5b4592",
+  "tokenTemplate": "0x637de3F8a8704F5921DDEff1F265232419672146",
+  "graduationAdapter": "0x05e1BFD0cd79FA2Ea7DDF3248078CE68d7d7F9a3",
+  "launchRules": "0x9A5a3211a6f005184036CDE5F67bEB13CF1577ee",
+  "accountEscrow": "0x7C658Fa0162437a41b36d8Ad4000D8884157D783",
+  "feeSplitter": "0xbEC7d701c1DD1Dab6064e6D0AE0b5856F42F9DF1",
+  "agnt": "0x91cC4fc35EEef86a37c5a7dD8CC88fd139fA2E32",
+  "staking": "0x0f4227e2495487544984794e4b67a04753183d88",
+  "ignite": "0xFd055Cb8686Ab68Aa5a6a5aF76488BB64040E663",
+  "standardFactory": "0x9a56bd03ad206AeEEd004e9F9d3658a5b74eB828",
+  "liquidityHelper": "0x1D352388f1588BEd49C994e3Ce66b3C0C232B138",
+  "airdrop": "0x760E4181317c33C1e0a248f7e47F97042e25fda3",
+  "keeper": "0xc96dAd80765b3E19677eEf9258de1e1D0e41465E",
+  "treasury": "0x71c9e9c496605442F9c1F621D408B38aea9224D2",
+  "team": "0x3D786B833DbAE8D9368747bB438B67003632AAa8",
+  "ecosystem": "0x08713C9D631d9cF1e00024c74c2b9C2D40a6a49B",
+  "liquidity": "0x71913ffeDDa0dC5a7ec0B81E0523A1cB513793E7",
+  "community": "0x9b47E94d5Ed35EF07283bC8d177242687051e1cA",
+  "guardian": "0x8090c5CD93E31f6654EB91cdd32c2caC686C7A59",
+  "owner": "0xE8D1E1Ae2aC35d9F9c76cB03cF54d6d51484CB45",
+  "settings": {
+    "graduationTarget": "1",
+    "graduationFeeBps": 300,
+    "launchFee": "0",
+    "metaUpdateFee": "0",
+    "walletCapBps": 700,
+    "creatorAllocBps": 300,
+    "creatorAllocUnlock": 432000,
+    "suffix": "AAAA",
+    "startPaused": false
+  },
+  "projectWallet": "0x71c9e9c496605442F9c1F621D408B38aea9224D2",
+  "contracts": [
+    {
+      "name": "TestnetAgentID",
+      "address": "0xAA883D0dD36A6aC162290a5FDcC18a214aa94eCD",
+      "args": []
+    },
+    {
+      "name": "AgentGate",
+      "address": "0x88bE033843968FCC96700Cdd3E87452BC23eF785",
+      "args": [
+        [
+          "0xAA883D0dD36A6aC162290a5FDcC18a214aa94eCD"
+        ],
+        "0xE8D1E1Ae2aC35d9F9c76cB03cF54d6d51484CB45",
+        "0x8090c5CD93E31f6654EB91cdd32c2caC686C7A59"
+      ]
+    },
+    {
+      "name": "AGNTToken",
+      "address": "0x91cC4fc35EEef86a37c5a7dD8CC88fd139fA2E32",
+      "args": [
+        "0xE8D1E1Ae2aC35d9F9c76cB03cF54d6d51484CB45"
+      ]
+    },
+    {
+      "name": "AGNTStaking",
+      "address": "0x0f4227e2495487544984794e4b67a04753183d88",
+      "args": [
+        "0x91cC4fc35EEef86a37c5a7dD8CC88fd139fA2E32",
+        "0xE8D1E1Ae2aC35d9F9c76cB03cF54d6d51484CB45",
+        "100000000000000000000000"
+      ]
+    },
+    {
+      "name": "LaunchToken",
+      "address": "0x637de3F8a8704F5921DDEff1F265232419672146",
+      "args": []
+    },
+    {
+      "name": "PancakeV2Adapter",
+      "address": "0x05e1BFD0cd79FA2Ea7DDF3248078CE68d7d7F9a3",
+      "args": [
+        "0xD99D1c33F9fC3444f8101754aBC46c52416550D1"
+      ]
+    },
+    {
+      "name": "LaunchRules",
+      "address": "0x9A5a3211a6f005184036CDE5F67bEB13CF1577ee",
+      "args": []
+    },
+    {
+      "name": "AccountFeeEscrow",
+      "address": "0x7C658Fa0162437a41b36d8Ad4000D8884157D783",
+      "args": [
+        "0x0000000000000000000000000000000000000000",
+        "0xE8D1E1Ae2aC35d9F9c76cB03cF54d6d51484CB45",
+        "0xF709728cedA1596aa3f6B78785e7D72E644e2866",
+        "0x8090c5CD93E31f6654EB91cdd32c2caC686C7A59"
+      ]
+    },
+    {
+      "name": "FeeSplitter",
+      "address": "0xbEC7d701c1DD1Dab6064e6D0AE0b5856F42F9DF1",
+      "args": [
+        "0xD99D1c33F9fC3444f8101754aBC46c52416550D1",
+        "0x71c9e9c496605442F9c1F621D408B38aea9224D2"
+      ]
+    },
+    {
+      "name": "AgentLaunchpad",
+      "address": "0x2a7E123acCE432DdaD6bF616AF03394dA0798637",
+      "args": [
+        {
+          "gate": "0x88bE033843968FCC96700Cdd3E87452BC23eF785",
+          "template": "0x637de3F8a8704F5921DDEff1F265232419672146",
+          "adapter": "0x05e1BFD0cd79FA2Ea7DDF3248078CE68d7d7F9a3",
+          "escrow": "0x7C658Fa0162437a41b36d8Ad4000D8884157D783",
+          "perks": "0x0f4227e2495487544984794e4b67a04753183d88",
+          "feeRecipient": "0xbEC7d701c1DD1Dab6064e6D0AE0b5856F42F9DF1",
+          "treasury": "0x71c9e9c496605442F9c1F621D408B38aea9224D2",
+          "guardian": "0x8090c5CD93E31f6654EB91cdd32c2caC686C7A59",
+          "graduationTarget": "1000000000000000000",
+          "graduationFeeBps": "300",
+          "launchFee": "0",
+          "metaUpdateFee": "0",
+          "walletCapBps": "700",
+          "minTarget": "100000000000000000",
+          "minWalletCapBps": "50",
+          "maxWalletCapBps": "2000",
+          "creatorAllocBps": "300",
+          "creatorAllocUnlock": "432000",
+          "rateLimited": false,
+          "suffixMask": "65535",
+          "suffix": "43690"
+        }
+      ],
+      "libraries": {
+        "LaunchRules": "0x9A5a3211a6f005184036CDE5F67bEB13CF1577ee"
+      }
+    },
+    {
+      "name": "LaunchpadLens",
+      "address": "0x194614Bf03d679705107a2520c068F9B4b5b4592",
+      "args": [
+        "0x2a7E123acCE432DdaD6bF616AF03394dA0798637"
+      ]
+    },
+    {
+      "name": "IgniteBoard",
+      "address": "0xFd055Cb8686Ab68Aa5a6a5aF76488BB64040E663",
+      "args": []
+    },
+    {
+      "name": "StandardTokenFactory",
+      "address": "0x9a56bd03ad206AeEEd004e9F9d3658a5b74eB828",
+      "args": [
+        "0xE8D1E1Ae2aC35d9F9c76cB03cF54d6d51484CB45",
+        "0x71c9e9c496605442F9c1F621D408B38aea9224D2",
+        "0x0f4227e2495487544984794e4b67a04753183d88"
+      ]
+    },
+    {
+      "name": "LiquidityHelper",
+      "address": "0x1D352388f1588BEd49C994e3Ce66b3C0C232B138",
+      "args": [
+        "0xD99D1c33F9fC3444f8101754aBC46c52416550D1"
+      ]
+    },
+    {
+      "name": "SparkAirdrop",
+      "address": "0x760E4181317c33C1e0a248f7e47F97042e25fda3",
+      "args": [
+        "0x91cC4fc35EEef86a37c5a7dD8CC88fd139fA2E32",
+        "0x71c9e9c496605442F9c1F621D408B38aea9224D2"
+      ]
+    }
+  ],
+  "agntCurve": "0x75223B727D454cbD717Efa03b265E1d34517AAAA",
+  "launchBot": "0xc96dAd80765b3E19677eEf9258de1e1D0e41465E"
+}

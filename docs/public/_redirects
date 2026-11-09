@@ -1,0 +1,5 @@
+# folder indexes without a page go to the first guide
+/guide /guide/start 301
+/guide/ /guide/start 301
+/:lang/guide /:lang/guide/start 301
+/:lang/guide/ /:lang/guide/start 301

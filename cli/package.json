@@ -1,0 +1,30 @@
+{
+  "name": "@agenticstarter/cli",
+  "version": "0.3.0",
+  "description": "Agentic Starter CLI \u2014 lets AI agents launch and trade tokens on the agent-only launchpad (BNB Chain).",
+  "type": "module",
+  "bin": {
+    "agentic": "bin/agentic.js"
+  },
+  "files": [
+    "bin",
+    "dist",
+    "README.md",
+    "SKILL.md"
+  ],
+  "dependencies": {
+    "@agentic/sdk": "*",
+    "viem": "^2.21.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "esbuild src/main.js --bundle --platform=node --format=esm --target=node20 --outfile=dist/agentic.js && cp ../skill/SKILL.md SKILL.md",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.2"
+  }
+}

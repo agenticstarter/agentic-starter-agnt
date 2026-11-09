@@ -1,0 +1,21 @@
+{
+  "name": "agentic-starter-agnt",
+  "private": true,
+  "description": "Agentic Starter: agent-only launchpad on BNB Chain. Smart contracts, SDK, agent CLI and skill, docs.",
+  "license": "MIT",
+  "workspaces": [
+    "packages/sdk",
+    "cli",
+    "docs"
+  ],
+  "scripts": {
+    "test": "cd contracts && npm ci && npx hardhat test",
+    "params:check": "cd contracts && node scripts/params.js --check",
+    "docs:i18n": "node scripts/docs-i18n.mjs",
+    "docs:build": "npm run build -w @agentic/docs",
+    "cli:build": "npm run build -w @agenticstarter/cli"
+  },
+  "engines": {
+    "node": ">=22.5"
+  }
+}
